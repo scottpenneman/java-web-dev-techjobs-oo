@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3a39c07-d7e0-45f6-9410-c04809668640" name="Default Changelist" comment="">
+    <list default="true" id="f3a39c07-d7e0-45f6-9410-c04809668640" name="Default Changelist" comment="Completed Assignment #2, #1-3">
+      <change afterPath="$PROJECT_DIR$/src/org/launchcode/techjobs_oo/Tests/jobTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/launchcode/techjobs_oo/Job.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/launchcode/techjobs_oo/Job.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-web-dev-techjobs-oo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-web-dev-techjobs-oo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/launchcode/techjobs_oo/PositionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/launchcode/techjobs_oo/PositionType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -20,7 +29,84 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="JUnit.jobTest">
+    <configuration name="jobTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java-web-dev-techjobs-oo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.launchcode.techjobs_oo.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.launchcode.techjobs_oo.Tests" />
+      <option name="MAIN_CLASS_NAME" value="org.launchcode.techjobs_oo.Tests.jobTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jobTest.testJobConstructorSetsAllFields" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java-web-dev-techjobs-oo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.launchcode.techjobs_oo.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.launchcode.techjobs_oo.Tests" />
+      <option name="MAIN_CLASS_NAME" value="org.launchcode.techjobs_oo.Tests.jobTest" />
+      <option name="METHOD_NAME" value="testJobConstructorSetsAllFields" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jobTest.testJobsForEquality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java-web-dev-techjobs-oo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.launchcode.techjobs_oo.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.launchcode.techjobs_oo.Tests" />
+      <option name="MAIN_CLASS_NAME" value="org.launchcode.techjobs_oo.Tests.jobTest" />
+      <option name="METHOD_NAME" value="testJobsForEquality" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jobTest.testSettingJobId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java-web-dev-techjobs-oo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.launchcode.techjobs_oo.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.launchcode.techjobs_oo.Tests" />
+      <option name="MAIN_CLASS_NAME" value="org.launchcode.techjobs_oo.Tests.jobTest" />
+      <option name="METHOD_NAME" value="testSettingJobId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.jobTest" />
+        <item itemvalue="JUnit.jobTest.testJobsForEquality" />
+        <item itemvalue="JUnit.jobTest.testJobConstructorSetsAllFields" />
+        <item itemvalue="JUnit.jobTest.testSettingJobId" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -52,29 +138,73 @@
       <option name="project" value="LOCAL" />
       <updated>1579662220376</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Completed Assignment #2, #1-3">
+      <created>1579739355754</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579739355754</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Completed Assignment #2, #1-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Assignment #2, #1-2" />
+    <MESSAGE value="Completed Assignment #2, #1-3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Assignment #2, #1-3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="986" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1579738524990">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="986" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1579738524990" />
-    <state x="481" y="119" key="CommitChangelistDialog2" timestamp="1579662219760">
+    <state x="481" y="119" key="CommitChangelistDialog2" timestamp="1579740490268">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="481" y="119" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1579662219760" />
-    <state x="551" y="258" key="Vcs.Push.Dialog.v2" timestamp="1579662225772">
+    <state x="481" y="119" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1579740490268" />
+    <state width="1875" height="284" key="GridCell.Tab.0.bottom" timestamp="1579744948898">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="551" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1579662225772" />
+    <state width="1875" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1579744948898" />
+    <state width="1875" height="284" key="GridCell.Tab.0.center" timestamp="1579744948897">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1875" height="284" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1579744948897" />
+    <state width="1875" height="284" key="GridCell.Tab.0.left" timestamp="1579744948896">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1875" height="284" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1579744948896" />
+    <state width="1875" height="284" key="GridCell.Tab.0.right" timestamp="1579744948897">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1875" height="284" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1579744948897" />
+    <state width="1875" height="351" key="GridCell.Tab.1.bottom" timestamp="1579744398110">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1875" height="351" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1579744398110" />
+    <state width="1875" height="351" key="GridCell.Tab.1.center" timestamp="1579744398109">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1875" height="351" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1579744398109" />
+    <state width="1875" height="351" key="GridCell.Tab.1.left" timestamp="1579744398109">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1875" height="351" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1579744398109" />
+    <state width="1875" height="351" key="GridCell.Tab.1.right" timestamp="1579744398109">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1875" height="351" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1579744398109" />
+    <state x="551" y="258" key="Vcs.Push.Dialog.v2" timestamp="1579739358390">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="551" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1579739358390" />
     <state x="655" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1579659372180">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="655" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1579659372180" />
+    <state x="663" y="418" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1579740667030">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="663" y="418" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1050@0.0.1920.1050" timestamp="1579740667030" />
   </component>
 </project>
